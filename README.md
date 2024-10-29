@@ -1,4 +1,5 @@
 # Plug-and-play Split Gibbs Sampler (PnP-SGS)
+![Alt text](PNP_SGS.png)
 
 A PyTorch implementation of the "Plug-and-play split Gibbs sampler: integrating deep generative priors into Bayesian inference" paper, focused on solving inverse imaging problems using DDPM-based regularization.
 
