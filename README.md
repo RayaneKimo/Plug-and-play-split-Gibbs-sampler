@@ -12,6 +12,10 @@ This repository implements the PnP-SGS algorithm, which combines:
 
 The implementation currently supports image inpainting, with the potential to extend to other inverse problems like deblurring and super-resolution.
 
+## Algorithm 
+
+![Alt text](PNP_SGS_ALgo.png)
+
 ## Features
 
 - Full posterior distribution sampling for inverse imaging problems
@@ -40,7 +44,7 @@ Expected reconstruction quality for image inpainting (75% masked pixels):
 
 ## Known Limitations
 
-1. Computational overhead compared to simpler methods like DPS
+1. Computational overhead compared to simpler methods like DPS (Diffusion Posterior Sampling).
 2. Sensitive to parameter `rho`
 3. Background reconstruction may be less accurate than foreground
 4. Memory intensive for large images
